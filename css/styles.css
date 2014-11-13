@@ -1,15 +1,228 @@
-/* Your Website Styles */
+/***********************
+GENERAL
+***********************/
+
+blockquote{
+  font-size: 2.0em;
+  font-family: 'Droid Sans', sans-serif;
+  font-style: italic;
+  color: black;
+  float: left;
+  padding: 35px 0 0 25px;
+  text-indent: -15px;
+  line-height: 1.75em;
+
+}
+
+blockquote span{
+  font-family: 'Playball', cursive;
+  font-style: normal;
+  font-size: 1.7rem;
+
+}
+
+h1{
+  font-family: 'bleeding_cowboysregular', sans-serif;
+  font-size: 3.75em;
+  font-weight: normal;
+  color: #000;
+  letter-spacing: 0.1em;
+  text-align: right;
+  max-width: 600px;
+}
+
+
+/***********************
+NAV
+***********************/
+
+.links{
+  background-image: url("../img/white-cf.png");
+  height: 80px;
+  border-radius: 30px;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.nav{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+  word-spacing: 1.25em;
+
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li span{
+  padding-right: 40px;
+}
+
+
+/***********************
+HEADER
+***********************/
+
+header{
+  margin-top: -20px !important;
+  margin-bottom: 50px !important;
+  max-width: 600px;
+}
+
+header p{
+  text-indent: 7em;
+
+}
+
+header p span{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	color: #000;
+	margin: 15px 0 7px 0;
+}
+
+header p a.email{
+  display: block;
+  text-indent: 50px;
+  margin-top: 5px;
+}
+
+header a{
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+header a:link,
+header a:hover,
+header a:active,
+header a:visited{
+
+  color: #000;
+}
+
+/***********************
+HORIZONTAL RULE - courtesy of
+http://www.techrepublic.com/blog/web-designer/customize-horizontal-rules-to-add-some-flair/
+however i couldn't decide between two of the borders, so i put my own twist on it
+and combine two different HR. It took a bit (a LOOOOT) of tweaking but i got them to flow together
+fairly nice.
+
+***********************/
+hr.flare {
+  height: 50px;
+  border-radius: 45px;
+  border-style: ridge;
+  border-color: #000;
+  border-width: 3px 0 0 0;
+  color: #000;
+  text-align: center;
+}
+
+hr.flare:before {
+  display: block;
+  content: "";
+  height: 50px;
+  margin-top: -58px;
+  border-style: ridge;
+  border-color: #000;
+  border-width: 0 0 3px 0;
+  border-radius: 45px;
+}
+
+hr.flare:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.65em;
+  font-size: 1.55em;
+  padding: 0.055em 0.32em 0.1em 0.32em;
+  background-image: url("../img/white-cf.png");
+  background-size: 56px 56px;
+}
+
+
+/***********************
+BODY
+***********************/
+
 body {
-	background: #eee;
+  background-color: #000;
 }
 
 
-div {
-	margin-top: -60px;	x 
-}
-
-
-/* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+  overflow: hidden;
+  background-color: #000;
+}
+
+div.bodyDiv{
+  background-image: url("../img/white-cf.png");
+  background-repeat: repeat;
+  border-radius: 2%;
+
+}
+
+section.programs{
+  display: inline-block;
+}
+
+
+/*******************
+SKILLSET LIST ITEMS
+*******************/
+
+/* Programming Languages */
+
+.c-icon{
+
+}
+.java-icon{
+
+}
+.python-icon{
+
+}
+.sql-icon{
+
+}
+.html5-icon{
+
+}
+.css3-icon{
+
+}
+
+/* Microsoft Shit */
+.excel-icon{
+
+}
+.pp-icon{
+
+}
+.word-icon{
+
+}
+
+/* Adobe Shit */
+.ilstr-icon{
+
+}
+.ind-icon{
+
+}
+.ps-icon{
+
 }
