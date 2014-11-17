@@ -95,7 +95,8 @@ header p span{
 
 header p a.email{
   display: block;
-  text-indent: 50px;
+  text-align: center;
+  text-indent: -25px;
   margin-top: 5px;
 }
 
@@ -172,57 +173,140 @@ div.bodyDiv{
   background-image: url("../img/white-cf.png");
   background-repeat: repeat;
   border-radius: 2%;
+}
+
+div h2{
+  margin-left: 20px;
 
 }
 
-section.programs{
+section h3.lang{
+  margin: 0 0 0 20px;
+}
+
+section h3.prog{
+  margin: 0 0 0 0px;
+}
+
+section h3.time{
+  margin: 0 0 0 15px;
+}
+
+section.microsoft,
+section.adobe{
   display: inline-block;
+  margin: -7px 0 0 0;
 }
 
+section.microsoft h4,
+section.adobe h4{
+  margin-bottom: -5px;
+}
+
+section.microsoft ul{
+  margin-left: -15px;
+}
+
+section.adobe ul li{
+  margin-left: 10px;
+}
+
+section.adobe h4{
+  text-align: center;
+}
 
 /*******************
 SKILLSET LIST ITEMS
 *******************/
+section.grid_4 ul li{
+
+  margin-bottom: 7px;
+}
+
+section.grid_4 ul.lang{
+  margin: 15px 0 0 5px;
+}
 
 /* Programming Languages */
 
 .c-icon{
-
+  list-style-image: url("img/c-icon.png");
 }
 .java-icon{
-
+  list-style-image: url("img/java-icon.png");
 }
 .python-icon{
-
+  list-style-image: url("img/python-icon.png");
 }
 .sql-icon{
-
+  list-style-image: url("img/sql-icon.png");
 }
 .html5-icon{
-
+  list-style-image: url("img/html5-icon.png");
 }
 .css3-icon{
-
+  list-style-image: url("img/css3-icon.png");
 }
 
 /* Microsoft Shit */
 .excel-icon{
-
+  list-style-image: url("img/excel-icon.png");
 }
 .pp-icon{
-
+  list-style-image: url("img/pp-icon.png");
 }
 .word-icon{
-
+  list-style-image: url("img/word-icon.png");
 }
 
 /* Adobe Shit */
 .ilstr-icon{
-
+  list-style-image: url("img/ilstr-icon.png");
 }
 .ind-icon{
-
+  list-style-image: url("img/ind-icon.png");
 }
 .ps-icon{
+  list-style-image: url("img/ps-icon.png");
+}
 
+/* Time Shit */
+section ul a,
+section ul a:link,
+section ul a:visited,
+section ul a:hover,
+section ul a:active{
+  text-decoration: none;
+  color: #000;
+}
+
+.sank-icon{
+    list-style-image: url("img/sank-icon.png");
+}
+.boa-icon{
+  list-style-image: url("img/boa-icon.png");
+}
+.dwen-icon{
+  list-style-image: url("img/dwen-icon.png");
+}
+
+
+/*******************
+EDUCATION LIST ITEMS
+*******************/
+
+li.scc-icon{
+  list-style-image: url("img/scc-icon.png");
+}
+
+li.scc-icon ul li{
+  list-style-image: none;
+}
+
+li.ewu-icon{
+  list-style-image: url("img/ewu-icon.png");
+}
+
+li.ewu-icon ul li{
+  list-style-image: none;
 }
