@@ -354,3 +354,14 @@ div ul.exp-list{
 div ul.exp-list li{
   margin: 0 0 10px 5px;
 }
+
+/*******************
+PERSONAL ASSERVATION
+*******************/
+
+p.personal{
+  margin: 0 0 50px 25px;
+  text-indent: 1.5em;
+  line-height: 1.3em;
+  text-align: justify;
+}
