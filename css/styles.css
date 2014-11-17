@@ -93,10 +93,19 @@ header p span{
 	margin: 15px 0 7px 0;
 }
 
-header p a.email{
+header p a.phone{
+  margin-left: 24px;
+}
+
+
+header p a.email1{
+  margin-left: 30px;
+}
+
+header p a.email2{
   display: block;
   text-align: center;
-  text-indent: -25px;
+  text-indent: 20px;
   margin-top: 5px;
 }
 
@@ -212,11 +221,12 @@ section.adobe ul li{
 }
 
 section.adobe h4{
-  text-align: center;
+  text-align: left;
+  margin-left: 25px;
 }
 
 /*******************
-SKILLSET LIST ITEMS
+SKILLSET & SKILLSET LIST ITEMS
 *******************/
 section.grid_4 ul li{
 
@@ -292,8 +302,21 @@ section ul a:active{
 
 
 /*******************
-EDUCATION LIST ITEMS
+EDUCATION & EDUCATION LIST ITEMS
 *******************/
+div.education{
+  margin-top: 25px;
+}
+
+
+div h3.studyField{
+  margin: 0 0 0 20px;
+}
+
+div ul.college{
+  margin: 15px 0 0 5px;
+
+}
 
 li.scc-icon{
   list-style-image: url("img/scc-icon.png");
@@ -301,12 +324,33 @@ li.scc-icon{
 
 li.scc-icon ul li{
   list-style-image: none;
+  margin-top: 5px;
 }
 
 li.ewu-icon{
   list-style-image: url("img/ewu-icon.png");
+  margin: 20px 0 0 0;
 }
 
 li.ewu-icon ul li{
   list-style-image: none;
+  margin-top: 5px;
+}
+
+
+/*******************
+EXPERIENCE
+*******************/
+
+div.experience{
+  margin-top: 30px;
+
+}
+
+div ul.exp-list{
+  text-align: justify;
+}
+
+div ul.exp-list li{
+  margin: 0 0 10px 5px;
 }
